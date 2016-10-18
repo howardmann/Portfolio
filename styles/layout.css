@@ -232,7 +232,6 @@ nav {
   border-left: 5px solid chartreuse;
   padding-left: 10px;
   cursor: pointer;
-  font-weight: 700;
 }
 .link.link-right {
   border-left: none;
@@ -301,7 +300,7 @@ nav {
   img.img-splittr {
     display: none;
   }
-  .tech-stack {
+  .tech-stack, .tech-stack-left {
     display: none;
   }
 }
