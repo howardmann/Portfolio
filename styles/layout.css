@@ -12,6 +12,10 @@ html, body {
   font-size: 14px;
   line-height: 1.6;
 }
+body {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling:touch;
+}
 
 /* TYPOGRAPHY */
 h1 {
