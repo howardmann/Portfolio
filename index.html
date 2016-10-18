@@ -12,6 +12,9 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles/layout.css">
   <link rel="stylesheet" href="styles/devicons.min.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/skrollr.js"></script>
+  <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -35,7 +38,7 @@
       <div class="container about-me flex-valign">
         <div class="row">
           <div class="col col-12">
-            <h1>G'DAY</h1>
+            <h1 data-center-center="filter: blur(0px)" data-top-center="filter: blur(2px)">G'DAY</h1>
           </div>
         </div>
         <div class="arrow-down"></div>
@@ -47,8 +50,10 @@
         <div class="row">
           <span class="heading">This is me</span>
           <div class="col sm-col-12 col-6">
-            <img class="img-profile" src="assets/profile.jpg">
-            <span class="img-caption">web developer | former banker | new dad</span>
+
+            <img class="img-profile" data-bottom-center="transform: translateX(-100%); filter: blur(3px) grayscale(0.5)" data-center-center="transform: translateX(0%); filter: blur(0px) grayscale(0)" src="assets/profile.jpg">
+
+            <span class="img-caption" data-bottom-center="transform: translateX(100%)" data-center-center="transform: translateX(0%)">web developer | former banker | new dad</span>
           </div>
 
           <div class="col sm-col-12 col-5 offset-1 left">
@@ -86,8 +91,6 @@
 
   </div>
 
-
-  <script src="js/main.js"></script>
 </body>
 
 </html>
