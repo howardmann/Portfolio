@@ -193,6 +193,9 @@ nav {
 .color-block:nth-child(odd) {
   background-color: gainsboro;
 }
+.gainsboro {
+  background-color: gainsboro;
+}
 .arrow-down {
   position: absolute;
   left: 50%;
