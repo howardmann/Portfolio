@@ -190,7 +190,7 @@ nav {
   border-left: 5px solid chartreuse;
   padding-left: 10px;
 }
-.color-block:nth-child(odd) {
+.color-block:nth-child(even) {
   background-color: gainsboro;
 }
 .gainsboro {
@@ -306,6 +306,10 @@ nav {
   }
   .tech-stack, .tech-stack-left {
     display: none;
+  }
+  .my-links {
+    margin: 2%;
+    font-size: 15px;
   }
 }
 
